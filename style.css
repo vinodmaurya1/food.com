@@ -1,0 +1,202 @@
+* {
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+}
+
+/* navigation bar */
+
+
+#logo img {
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    height: 94px; */
+    width: 68px;
+    /* padding: 5px 20px;
+    margin: 10px 20px; */
+    position: relative;
+
+}
+
+
+#navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(20, 20, 20);
+    border-radius: 20px;
+    opacity: 0.9;
+
+}
+
+#navbar ul li a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+
+#navbar ul li:hover {
+    border-radius: 20px;
+    color: rgb(14, 13, 13);
+    background-color: rgb(230, 19, 19);
+}
+
+
+#navbar ul {
+    display: flex;
+    text-decoration: none;
+}
+
+#navbar ul li {
+
+    display: flex;
+    padding: 4px 24px;
+    margin: 3px 1px;
+}
+
+
+
+/* home section  */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 53px 200px;
+    margin: 16px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background: url('/image/pizza\ logo.jpg');
+    z-index: -1;
+    opacity: 0.6;
+}
+
+    
+
+.btn {
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 20px;
+}
+
+.btn:hover {
+
+    background-color: rgb(245, 43, 43);
+
+}
+
+
+
+/* services */
+
+#services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#services {
+    
+    padding: 7px;
+    margin: -32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#services-container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.2rem;
+    border: 2px solid red;
+}
+
+#services .box {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 83px;
+    
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* contact us  */
+
+
+h1, #box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#contact{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   height: 70vh;
+   
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    background: url('/image/socialmediaiconimage1.jpg'); 
+    z-index: -1;
+    opacity: 0.6;
+}
+.form-group{
+    padding: 12px 1px;
+    margin: 2px 1px;
+    /* color: white; */
+    /* border: 2px solid red; */
+    /* background-color: black; */
+    border-radius: 20px;
+
+}
+#name, #email, #phone-number, #massage{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
